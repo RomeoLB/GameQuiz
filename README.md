@@ -24,7 +24,7 @@ In the BACon presentation
 <img width="452" alt="image" src="https://github.com/RomeoLB/GameQuiz/assets/136584791/3a6ccad6-b708-43da-903f-0fd56d179fe1">
 
 
-s.FirstQuestionTransitionTimeout = 2000 is used is specify the timeout for displaying the gameÕs rules and the transition to the first question should be.
+s.FirstQuestionTransitionTimeout = 2000 is used is specify the timeout for displaying the game's rules and the transition to the first question should be.
 
 <img width="452" alt="image" src="https://github.com/RomeoLB/GameQuiz/assets/136584791/2eac445b-1f1a-4323-a313-2ef04a4841fd">
 
@@ -64,7 +64,7 @@ In summary, this Presentation/plugin allows to do the following:
 
 1.  Play an attract loop until the serial command "X003A[1]" is triggered by the Nexmosphre controller. The serial command "X003A[1]" will need to be changed in the BACon interactive playlist and in the plugin.
 
-2.  Display the GameÕs rules for 2 seconds (this time value can be changed in the plugin - s.FirstQuestionTransitionTimeout = 2000)
+2.  Display the game's rules for 2 seconds (this time value can be changed in the plugin - s.FirstQuestionTransitionTimeout = 2000)
 
 3.  Display 5 random questions out of 20 and ensures that the same question is never displayed in the next game and until 4 new sets of 5 random questions are re-generated.
 
