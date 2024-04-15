@@ -1,4 +1,4 @@
-**How to use get and use this package?**
+**How to get and use this package?**
 
 Click on "Code" and select "Download Zip"
 
