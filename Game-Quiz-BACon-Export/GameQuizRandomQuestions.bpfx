@@ -1,0 +1,2174 @@
+{
+  "meta": {
+    "brightAuthorVersion": "1.32.0",
+    "buildType": "Standard"
+  },
+  "bsdm": {
+    "sign": {
+      "properties": {
+        "id": "0214d9cc-dab4-4000-adf7-94f2d2c7c000",
+        "version": "1.3.10",
+        "name": "GameQuizRandomQuestions",
+        "videoMode": "1920x1080x60p",
+        "size": {
+          "width": 1920,
+          "height": 1080
+        },
+        "model": "XT1145",
+        "monitorOrientation": "Landscape",
+        "monitorOverscan": "NoOverscan",
+        "videoConnector": "HDMI",
+        "deviceWebPageDisplay": "Standard",
+        "backgroundScreenColor": {
+          "a": 255,
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "forceResolution": true,
+        "tenBitColorEnabled": false,
+        "dolbyVisionEnabled": false,
+        "fullResGraphicsEnabled": true,
+        "audioConfiguration": "MixedAudioPCMOnly",
+        "audioAutoLevel": false,
+        "htmlEnableJavascriptConsole": false,
+        "alphabetizeVariableNames": false,
+        "autoCreateMediaCounterVariables": false,
+        "resetVariablesOnPresentationStart": true,
+        "networkedVariablesUpdateInterval": 300,
+        "delayScheduleChangeUntilMediaEndEvent": false,
+        "language": "English",
+        "languageKey": "eng",
+        "flipCoordinates": false,
+        "inactivityTimeout": false,
+        "inactivityTime": 30,
+        "touchCursorDisplayMode": "Auto",
+        "udpDestinationAddressType": "IPAddress",
+        "udpDestinationAddress": "255.255.255.255",
+        "udpDestinationPort": 5000,
+        "udpReceiverPort": 5000,
+        "enableEnhancedSynchronization": null,
+        "disableSettingsHandler": false,
+        "htmlEnableChromiumVideoPlayback": false,
+        "gpsConfiguration": "None",
+        "isMosaic": false,
+        "graphicsZOrder": "Back"
+      },
+      "serialPortConfigurations": [
+        {
+          "port": "0",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "1",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "2",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CRLF",
+          "receiveEol": "CRLF",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "3",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "4",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "5",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "6",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "port": "7",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        }
+      ],
+      "gpio": [
+        "input",
+        "input",
+        "input",
+        "input",
+        "input",
+        "input",
+        "input",
+        "input"
+      ],
+      "buttonPanels": {
+        "bp900a": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp900b": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp900c": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp900d": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp200a": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp200b": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp200c": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp200d": {
+          "configureAutomatically": true,
+          "configuration": 0
+        }
+      },
+      "irRemote": {
+        "irInConfiguration": {
+          "source": "Ir-in"
+        },
+        "irOutConfiguration": {
+          "destination": "Iguana"
+        },
+        "irRemoteControl": {
+          "id": "RC-1002",
+          "encoding": "NEC",
+          "manufacturerCode": 28560,
+          "buttons": {
+            "0": {
+              "buttonCode": 0,
+              "buttonDescription": "Option"
+            },
+            "1": {
+              "buttonCode": 1,
+              "buttonDescription": "1"
+            },
+            "2": {
+              "buttonCode": 2,
+              "buttonDescription": "2"
+            },
+            "3": {
+              "buttonCode": 3,
+              "buttonDescription": "3"
+            },
+            "4": {
+              "buttonCode": 4,
+              "buttonDescription": "4"
+            },
+            "5": {
+              "buttonCode": 5,
+              "buttonDescription": "5"
+            },
+            "6": {
+              "buttonCode": 6,
+              "buttonDescription": "6"
+            },
+            "7": {
+              "buttonCode": 7,
+              "buttonDescription": "7"
+            },
+            "8": {
+              "buttonCode": 8,
+              "buttonDescription": "8"
+            },
+            "9": {
+              "buttonCode": 9,
+              "buttonDescription": "9"
+            },
+            "10": {
+              "buttonCode": 10,
+              "buttonDescription": "Exit"
+            },
+            "11": {
+              "buttonCode": 11,
+              "buttonDescription": "Channel Up"
+            },
+            "12": {
+              "buttonCode": 12,
+              "buttonDescription": "Period \".\""
+            },
+            "13": {
+              "buttonCode": 13,
+              "buttonDescription": "Channel Down"
+            },
+            "14": {
+              "buttonCode": 14,
+              "buttonDescription": "Source"
+            },
+            "15": {
+              "buttonCode": 15,
+              "buttonDescription": "Mute"
+            },
+            "16": {
+              "buttonCode": 16,
+              "buttonDescription": "Left"
+            },
+            "17": {
+              "buttonCode": 17,
+              "buttonDescription": "Right"
+            },
+            "18": {
+              "buttonCode": 18,
+              "buttonDescription": "Up"
+            },
+            "19": {
+              "buttonCode": 19,
+              "buttonDescription": "Down"
+            },
+            "20": {
+              "buttonCode": 20,
+              "buttonDescription": "Ok"
+            },
+            "21": {
+              "buttonCode": 21,
+              "buttonDescription": "Back"
+            },
+            "22": {
+              "buttonCode": 22,
+              "buttonDescription": "Power"
+            },
+            "23": {
+              "buttonCode": 23,
+              "buttonDescription": "Home"
+            },
+            "24": {
+              "buttonCode": 24,
+              "buttonDescription": "Search"
+            },
+            "25": {
+              "buttonCode": 25,
+              "buttonDescription": "Play"
+            },
+            "26": {
+              "buttonCode": 26,
+              "buttonDescription": "Fast Forward"
+            },
+            "27": {
+              "buttonCode": 27,
+              "buttonDescription": "Rewind"
+            },
+            "28": {
+              "buttonCode": 28,
+              "buttonDescription": "Pause"
+            },
+            "29": {
+              "buttonCode": 29,
+              "buttonDescription": "Add"
+            },
+            "30": {
+              "buttonCode": 30,
+              "buttonDescription": "Shuffle"
+            },
+            "31": {
+              "buttonCode": 31,
+              "buttonDescription": "Repeat"
+            },
+            "64": {
+              "buttonCode": 64,
+              "buttonDescription": "Volume Up"
+            },
+            "65": {
+              "buttonCode": 65,
+              "buttonDescription": "Volume Down"
+            },
+            "66": {
+              "buttonCode": 66,
+              "buttonDescription": "Brightness"
+            },
+            "67": {
+              "buttonCode": 67,
+              "buttonDescription": "Info"
+            },
+            "68": {
+              "buttonCode": 68,
+              "buttonDescription": "Green"
+            },
+            "69": {
+              "buttonCode": 69,
+              "buttonDescription": "0"
+            },
+            "70": {
+              "buttonCode": 70,
+              "buttonDescription": "Stop"
+            },
+            "71": {
+              "buttonCode": 71,
+              "buttonDescription": "Last"
+            },
+            "83": {
+              "buttonCode": 83,
+              "buttonDescription": "Red"
+            },
+            "84": {
+              "buttonCode": 84,
+              "buttonDescription": "Blue"
+            },
+            "87": {
+              "buttonCode": 87,
+              "buttonDescription": "Yellow"
+            }
+          }
+        }
+      },
+      "audioSignPropertyMap": {
+        "analog1": {
+          "min": 0,
+          "max": 100
+        },
+        "analog2": {
+          "min": 0,
+          "max": 100
+        },
+        "analog3": {
+          "min": 0,
+          "max": 100
+        },
+        "hdmi": {
+          "min": 0,
+          "max": 100
+        },
+        "hdmi1": {
+          "min": 0,
+          "max": 100
+        },
+        "hdmi2": {
+          "min": 0,
+          "max": 100
+        },
+        "hdmi3": {
+          "min": 0,
+          "max": 100
+        },
+        "hdmi4": {
+          "min": 0,
+          "max": 100
+        },
+        "spdif": {
+          "min": 0,
+          "max": 100
+        },
+        "usbA": {
+          "min": 0,
+          "max": 100
+        },
+        "usbB": {
+          "min": 0,
+          "max": 100
+        },
+        "usbC": {
+          "min": 0,
+          "max": 100
+        },
+        "usbD": {
+          "min": 0,
+          "max": 100
+        },
+        "usbTypeA": {
+          "min": 0,
+          "max": 100
+        },
+        "usbTypeC": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_1": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_2": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_3": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_4": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_5": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_6": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_7": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_1": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_2": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_3": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_4": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_5": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_6": {
+          "min": 0,
+          "max": 100
+        }
+      },
+      "wssDeviceSpec": {},
+      "lastModifiedTime": "2024-04-15T11:20:50.987Z"
+    },
+    "zones": {
+      "zonesById": {
+        "fa508d95-9f58-4000-a1fe-891773946000": {
+          "id": "fa508d95-9f58-4000-a1fe-891773946000",
+          "name": "Zone 1",
+          "type": "VideoOrImages",
+          "tag": "VI1",
+          "nonInteractive": false,
+          "initialMediaStateId": "9aab30e0-88a6-4000-a1d5-c2cf92ea8000",
+          "position": {
+            "width": 1920,
+            "height": 1080,
+            "x": 0,
+            "y": 0,
+            "pct": false
+          },
+          "properties": {
+            "viewMode": "Letterboxed and Centered",
+            "videoVolume": 100,
+            "maxContentResolution": "HD",
+            "brightness": 128,
+            "contrast": 64,
+            "saturation": 64,
+            "hue": 0,
+            "zOrderFront": true,
+            "mosaic": false,
+            "audioOutput": "Analog",
+            "audioMode": "Stereo",
+            "audioMapping": "Audio1",
+            "audioOutputAssignments": {
+              "analog1": "Pcm",
+              "analog2": "None",
+              "analog3": "None",
+              "usbA": "None",
+              "usbB": "None",
+              "usbC": "None",
+              "usbD": "None",
+              "usbTypeA": "None",
+              "usbTypeC": "None",
+              "usb700_1": "None",
+              "usb700_2": "None",
+              "usb700_3": "None",
+              "usb700_4": "None",
+              "usb700_5": "None",
+              "usb700_6": "None",
+              "usb700_7": "None",
+              "usb_1": "None",
+              "usb_2": "None",
+              "usb_3": "None",
+              "usb_4": "None",
+              "usb_5": "None",
+              "usb_6": "None",
+              "spdif": "Pcm",
+              "hdmi": "Pcm",
+              "hdmi1": "Pcm",
+              "hdmi2": "None",
+              "hdmi3": "None",
+              "hdmi4": "None"
+            },
+            "audioMixMode": "Stereo",
+            "audioVolume": 100,
+            "minimumVolume": 0,
+            "maximumVolume": 100,
+            "imageMode": "Scale to Fit"
+          }
+        }
+      },
+      "allZones": [
+        "fa508d95-9f58-4000-a1fe-891773946000"
+      ],
+      "zoneLayersById": {
+        "b7ff3f3a-4d2d-4000-a035-8d09cea49000": {
+          "id": "b7ff3f3a-4d2d-4000-a035-8d09cea49000",
+          "type": "Graphics",
+          "zoneSequence": [
+            "fa508d95-9f58-4000-a1fe-891773946000"
+          ]
+        },
+        "0aaf685a-cb93-4000-ae2f-99c96a63a000": {
+          "id": "0aaf685a-cb93-4000-ae2f-99c96a63a000",
+          "type": "Audio",
+          "zoneSequence": []
+        },
+        "b90d339b-1bf0-4000-a39f-1d497ba94000": {
+          "id": "b90d339b-1bf0-4000-a39f-1d497ba94000",
+          "type": "Invisible",
+          "zoneSequence": []
+        },
+        "c2a1ec30-675f-4000-ae30-52fe1de65000": {
+          "id": "c2a1ec30-675f-4000-ae30-52fe1de65000",
+          "type": "Video",
+          "zoneSequence": [
+            "fa508d95-9f58-4000-a1fe-891773946000"
+          ],
+          "zoneLayerSpecificProperties": {
+            "type": "FourK",
+            "index": 0,
+            "sharedDecoder": false,
+            "enableMosaicDeinterlacer": false
+          }
+        },
+        "03a5ca3e-68f5-4000-a473-8473cce4f000": {
+          "id": "03a5ca3e-68f5-4000-a473-8473cce4f000",
+          "type": "Video",
+          "zoneSequence": [],
+          "zoneLayerSpecificProperties": {
+            "type": "FourK",
+            "index": 1,
+            "sharedDecoder": false,
+            "enableMosaicDeinterlacer": false
+          }
+        }
+      },
+      "zoneLayerSequence": [
+        "b7ff3f3a-4d2d-4000-a035-8d09cea49000",
+        "c2a1ec30-675f-4000-ae30-52fe1de65000",
+        "03a5ca3e-68f5-4000-a473-8473cce4f000"
+      ],
+      "zoneTagIndices": {
+        "fa508d95-9f58-4000-a1fe-891773946000": 14
+      }
+    },
+    "screens": {
+      "screensById": {
+        "ffa2f5b3-a483-4000-a575-4cfaaa7ca000": {
+          "id": "ffa2f5b3-a483-4000-a575-4cfaaa7ca000",
+          "name": "Screen 1",
+          "videoMode": "1920x1080x60p",
+          "videoConnectorName": "HDMI-1",
+          "monitorOrientation": "Landscape",
+          "fullResGraphicsEnabled": false,
+          "dolbyVisionEnabled": false,
+          "videoConnector": "HDMI",
+          "dimensions": {
+            "bezelTop": 0,
+            "bezelRight": 0,
+            "bezelBottom": 0,
+            "bezelLeft": 0,
+            "screenWidth": 0,
+            "screenHeight": 0,
+            "x": 0,
+            "y": 0
+          },
+          "forceResolution": false,
+          "tenBitColorEnabled": false
+        }
+      },
+      "allScreens": [
+        [
+          "ffa2f5b3-a483-4000-a575-4cfaaa7ca000"
+        ]
+      ]
+    },
+    "mediaStates": {
+      "mediaStatesById": {
+        "56559ef4-8698-4000-a991-32b501ce6000": {
+          "id": "56559ef4-8698-4000-a991-32b501ce6000",
+          "name": "Results",
+          "tag": "10",
+          "container": {
+            "id": "fa508d95-9f58-4000-a1fe-891773946000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Results",
+            "type": "PlayFile",
+            "triggerType": "ByUserVariable",
+            "useDefaultMedia": false,
+            "defaultMediaId": "0",
+            "userVariableIdOrName": "e03f7cbb-9931-4000-a5f1-b1b949c4b000",
+            "useDataFeed": false,
+            "dataFeedId": "0"
+          }
+        },
+        "c658cab3-3852-4000-acb7-dc46fc472000": {
+          "id": "c658cab3-3852-4000-acb7-dc46fc472000",
+          "name": "Questions",
+          "tag": "11",
+          "container": {
+            "id": "fa508d95-9f58-4000-a1fe-891773946000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Questions",
+            "type": "PlayFile",
+            "triggerType": "ByUserVariable",
+            "useDefaultMedia": false,
+            "defaultMediaId": "0",
+            "userVariableIdOrName": "ca13d850-bdff-4000-ace7-ad24b7c0b000",
+            "useDataFeed": false,
+            "dataFeedId": "0"
+          }
+        },
+        "9aab30e0-88a6-4000-a1d5-c2cf92ea8000": {
+          "id": "9aab30e0-88a6-4000-a1d5-c2cf92ea8000",
+          "name": "AttractLoop.mp4",
+          "tag": "12",
+          "container": {
+            "id": "fa508d95-9f58-4000-a1fe-891773946000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "AttractLoop.mp4",
+            "type": "Video",
+            "assetId": "217ba0d4-0aee-4000-ae7e-3d5da04e3000",
+            "volume": 100,
+            "videoDisplayMode": "2D",
+            "automaticallyLoop": true
+          }
+        },
+        "0c9b72e7-3da1-4000-a941-4db74856f000": {
+          "id": "0c9b72e7-3da1-4000-a941-4db74856f000",
+          "name": "GameRules.png",
+          "tag": "13",
+          "container": {
+            "id": "fa508d95-9f58-4000-a1fe-891773946000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "GameRules.png",
+            "type": "Image",
+            "assetId": "b182c868-b16b-4000-a83f-fa81f8c62000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1
+          }
+        },
+        "d08ae012-f633-4000-a803-ba28d1ec4000": {
+          "id": "d08ae012-f633-4000-a803-ba28d1ec4000",
+          "name": "Question1.png",
+          "tag": "",
+          "container": {
+            "id": "c658cab3-3852-4000-acb7-dc46fc472000",
+            "type": 2
+          },
+          "contentItem": {
+            "name": "Question1.png",
+            "type": "Image",
+            "assetId": "3510272a-db45-4000-ace1-b21d7fe08000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1,
+            "key": "Question1",
+            "exportKey": true
+          }
+        },
+        "0c153e62-ff22-4000-add1-ffb4a8807000": {
+          "id": "0c153e62-ff22-4000-add1-ffb4a8807000",
+          "name": "Question2.png",
+          "tag": "",
+          "container": {
+            "id": "c658cab3-3852-4000-acb7-dc46fc472000",
+            "type": 2
+          },
+          "contentItem": {
+            "name": "Question2.png",
+            "type": "Image",
+            "assetId": "16fa23dc-e60b-4000-ab90-922ad2294000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1,
+            "key": "Question2",
+            "exportKey": true
+          }
+        },
+        "ba816230-59c9-4000-af5d-a65970fe1000": {
+          "id": "ba816230-59c9-4000-af5d-a65970fe1000",
+          "name": "Question3.png",
+          "tag": "",
+          "container": {
+            "id": "c658cab3-3852-4000-acb7-dc46fc472000",
+            "type": 2
+          },
+          "contentItem": {
+            "name": "Question3.png",
+            "type": "Image",
+            "assetId": "6bc95534-1bd8-4000-a964-82bef8c65000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1,
+            "key": "Question3",
+            "exportKey": true
+          }
+        },
+        "d8b3ec1b-f038-4000-adc4-42ecb2283000": {
+          "id": "d8b3ec1b-f038-4000-adc4-42ecb2283000",
+          "name": "Question4.png",
+          "tag": "",
+          "container": {
+            "id": "c658cab3-3852-4000-acb7-dc46fc472000",
+            "type": 2
+          },
+          "contentItem": {
+            "name": "Question4.png",
+            "type": "Image",
+            "assetId": "36653da7-7316-4000-a32e-a7142c10f000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1,
+            "key": "Question4",
+            "exportKey": true
+          }
+        },
+        "82ec477f-bd7d-4000-aa57-c55d94695000": {
+          "id": "82ec477f-bd7d-4000-aa57-c55d94695000",
+          "name": "Question5.png",
+          "tag": "",
+          "container": {
+            "id": "c658cab3-3852-4000-acb7-dc46fc472000",
+            "type": 2
+          },
+          "contentItem": {
+            "name": "Question5.png",
+            "type": "Image",
+            "assetId": "7b4333dc-69af-4000-a671-d4e1ed7d1000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1,
+            "key": "Question5",
+            "exportKey": true
+          }
+        },
+        "d3ffd062-83df-4000-a916-1bd98694e000": {
+          "id": "d3ffd062-83df-4000-a916-1bd98694e000",
+          "name": "Question6.png",
+          "tag": "",
+          "container": {
+            "id": "c658cab3-3852-4000-acb7-dc46fc472000",
+            "type": 2
+          },
+          "contentItem": {
+            "name": "Question6.png",
+            "type": "Image",
+            "assetId": "1494ddf8-5e57-4000-a62a-9311d369a000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1,
+            "key": "Question6",
+            "exportKey": true
+          }
+        },
+        "02b81f04-92c1-4000-a703-1aec22ebe000": {
+          "id": "02b81f04-92c1-4000-a703-1aec22ebe000",
+          "name": "Question7.png",
+          "tag": "",
+          "container": {
+            "id": "c658cab3-3852-4000-acb7-dc46fc472000",
+            "type": 2
+          },
+          "contentItem": {
+            "name": "Question7.png",
+            "type": "Image",
+            "assetId": "a35b5f73-6533-4000-a3aa-6093ce226000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1,
+            "key": "Question7",
+            "exportKey": true
+          }
+        },
+        "da0b4f57-94ed-4000-a167-c39c1a560000": {
+          "id": "da0b4f57-94ed-4000-a167-c39c1a560000",
+          "name": "Question8.png",
+          "tag": "",
+          "container": {
+            "id": "c658cab3-3852-4000-acb7-dc46fc472000",
+            "type": 2
+          },
+          "contentItem": {
+            "name": "Question8.png",
+            "type": "Image",
+            "assetId": "c4a09122-377c-4000-a561-904d84a4c000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1,
+            "key": "Question8",
+            "exportKey": true
+          }
+        },
+        "091ea348-b734-4000-a7e3-8104421d6000": {
+          "id": "091ea348-b734-4000-a7e3-8104421d6000",
+          "name": "Question9.png",
+          "tag": "",
+          "container": {
+            "id": "c658cab3-3852-4000-acb7-dc46fc472000",
+            "type": 2
+          },
+          "contentItem": {
+            "name": "Question9.png",
+            "type": "Image",
+            "assetId": "a19941b5-ebe1-4000-acdc-2e184558c000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1,
+            "key": "Question9",
+            "exportKey": true
+          }
+        },
+        "91c5fda1-fba7-4000-a611-425fc6215000": {
+          "id": "91c5fda1-fba7-4000-a611-425fc6215000",
+          "name": "Question10.png",
+          "tag": "",
+          "container": {
+            "id": "c658cab3-3852-4000-acb7-dc46fc472000",
+            "type": 2
+          },
+          "contentItem": {
+            "name": "Question10.png",
+            "type": "Image",
+            "assetId": "190fc52f-e540-4000-a837-cb8db781a000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1,
+            "key": "Question10",
+            "exportKey": true
+          }
+        },
+        "6b6e0d55-5d77-4000-a1a6-dce26f84c000": {
+          "id": "6b6e0d55-5d77-4000-a1a6-dce26f84c000",
+          "name": "Question11.png",
+          "tag": "",
+          "container": {
+            "id": "c658cab3-3852-4000-acb7-dc46fc472000",
+            "type": 2
+          },
+          "contentItem": {
+            "name": "Question11.png",
+            "type": "Image",
+            "assetId": "681de43f-92c0-4000-a9dd-324fa3a66000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1,
+            "key": "Question11",
+            "exportKey": true
+          }
+        },
+        "4aa4a5ee-a43d-4000-a13c-9bab2e8c3000": {
+          "id": "4aa4a5ee-a43d-4000-a13c-9bab2e8c3000",
+          "name": "Question12.png",
+          "tag": "",
+          "container": {
+            "id": "c658cab3-3852-4000-acb7-dc46fc472000",
+            "type": 2
+          },
+          "contentItem": {
+            "name": "Question12.png",
+            "type": "Image",
+            "assetId": "83f9a786-9918-4000-ae0f-4218a040e000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1,
+            "key": "Question12",
+            "exportKey": true
+          }
+        },
+        "a1ece2a5-27ef-4000-a391-03878f6b0000": {
+          "id": "a1ece2a5-27ef-4000-a391-03878f6b0000",
+          "name": "Question13.png",
+          "tag": "",
+          "container": {
+            "id": "c658cab3-3852-4000-acb7-dc46fc472000",
+            "type": 2
+          },
+          "contentItem": {
+            "name": "Question13.png",
+            "type": "Image",
+            "assetId": "f2c56832-ba47-4000-a1ba-04a487bdf000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1,
+            "key": "Question13",
+            "exportKey": true
+          }
+        },
+        "27614f74-2e32-4000-a4f5-f5478354b000": {
+          "id": "27614f74-2e32-4000-a4f5-f5478354b000",
+          "name": "Question14.png",
+          "tag": "",
+          "container": {
+            "id": "c658cab3-3852-4000-acb7-dc46fc472000",
+            "type": 2
+          },
+          "contentItem": {
+            "name": "Question14.png",
+            "type": "Image",
+            "assetId": "6d23635e-bdc6-4000-a055-7bfdce38c000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1,
+            "key": "Question14",
+            "exportKey": true
+          }
+        },
+        "077eaa72-9831-4000-ab65-4bb4df87a000": {
+          "id": "077eaa72-9831-4000-ab65-4bb4df87a000",
+          "name": "Question15.png",
+          "tag": "",
+          "container": {
+            "id": "c658cab3-3852-4000-acb7-dc46fc472000",
+            "type": 2
+          },
+          "contentItem": {
+            "name": "Question15.png",
+            "type": "Image",
+            "assetId": "e846e777-a4e9-4000-a674-4a958e2d8000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1,
+            "key": "Question15",
+            "exportKey": true
+          }
+        },
+        "ad7f5ce9-f1a0-4000-ac05-08065e19e000": {
+          "id": "ad7f5ce9-f1a0-4000-ac05-08065e19e000",
+          "name": "Question16.png",
+          "tag": "",
+          "container": {
+            "id": "c658cab3-3852-4000-acb7-dc46fc472000",
+            "type": 2
+          },
+          "contentItem": {
+            "name": "Question16.png",
+            "type": "Image",
+            "assetId": "cbd2e78f-9200-4000-a255-07a5c597e000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1,
+            "key": "Question16",
+            "exportKey": true
+          }
+        },
+        "34b54163-ca0e-4000-a88a-515d9282c000": {
+          "id": "34b54163-ca0e-4000-a88a-515d9282c000",
+          "name": "Question17.png",
+          "tag": "",
+          "container": {
+            "id": "c658cab3-3852-4000-acb7-dc46fc472000",
+            "type": 2
+          },
+          "contentItem": {
+            "name": "Question17.png",
+            "type": "Image",
+            "assetId": "67a63eed-b8c5-4000-a2f6-3a72aac2a000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1,
+            "key": "Question17",
+            "exportKey": true
+          }
+        },
+        "eb5d49db-95bf-4000-afde-a89c55d2f000": {
+          "id": "eb5d49db-95bf-4000-afde-a89c55d2f000",
+          "name": "Question18.png",
+          "tag": "",
+          "container": {
+            "id": "c658cab3-3852-4000-acb7-dc46fc472000",
+            "type": 2
+          },
+          "contentItem": {
+            "name": "Question18.png",
+            "type": "Image",
+            "assetId": "bc3eb5e0-0307-4000-aaa9-20fc3b4c6000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1,
+            "key": "Question18",
+            "exportKey": true
+          }
+        },
+        "993fe535-af80-4000-a115-d92ba274c000": {
+          "id": "993fe535-af80-4000-a115-d92ba274c000",
+          "name": "Question19.png",
+          "tag": "",
+          "container": {
+            "id": "c658cab3-3852-4000-acb7-dc46fc472000",
+            "type": 2
+          },
+          "contentItem": {
+            "name": "Question19.png",
+            "type": "Image",
+            "assetId": "ae1338b5-2147-4000-adfb-1c386da9b000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1,
+            "key": "Question19",
+            "exportKey": true
+          }
+        },
+        "6e35bec8-dd6a-4000-ada1-9a5613b10000": {
+          "id": "6e35bec8-dd6a-4000-ada1-9a5613b10000",
+          "name": "Question20.png",
+          "tag": "",
+          "container": {
+            "id": "c658cab3-3852-4000-acb7-dc46fc472000",
+            "type": 2
+          },
+          "contentItem": {
+            "name": "Question20.png",
+            "type": "Image",
+            "assetId": "d2c6a9d5-d913-4000-a89d-a7569ddce000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1,
+            "key": "Question20",
+            "exportKey": true
+          }
+        },
+        "5eb94dc6-aaf3-4000-a2c5-ee7bc9d4b000": {
+          "id": "5eb94dc6-aaf3-4000-a2c5-ee7bc9d4b000",
+          "name": "Answers0.png",
+          "tag": "",
+          "container": {
+            "id": "56559ef4-8698-4000-a991-32b501ce6000",
+            "type": 2
+          },
+          "contentItem": {
+            "name": "Answers0.png",
+            "type": "Image",
+            "assetId": "3c744ce6-0eb6-4000-a198-2660b7e47000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1,
+            "key": "0",
+            "exportKey": true
+          }
+        },
+        "2926d255-4be2-4000-afd9-c461632c9000": {
+          "id": "2926d255-4be2-4000-afd9-c461632c9000",
+          "name": "Answers1.png",
+          "tag": "",
+          "container": {
+            "id": "56559ef4-8698-4000-a991-32b501ce6000",
+            "type": 2
+          },
+          "contentItem": {
+            "name": "Answers1.png",
+            "type": "Image",
+            "assetId": "15cdbd53-6281-4000-a64e-9fc28d6ed000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1,
+            "key": "1",
+            "exportKey": true
+          }
+        },
+        "b8644afc-06a1-4000-a046-99ea60d02000": {
+          "id": "b8644afc-06a1-4000-a046-99ea60d02000",
+          "name": "Answers2.png",
+          "tag": "",
+          "container": {
+            "id": "56559ef4-8698-4000-a991-32b501ce6000",
+            "type": 2
+          },
+          "contentItem": {
+            "name": "Answers2.png",
+            "type": "Image",
+            "assetId": "6b75c89b-159b-4000-ad12-b1937d1e4000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1,
+            "key": "2",
+            "exportKey": true
+          }
+        },
+        "25474cef-5ceb-4000-a98c-80708bbe2000": {
+          "id": "25474cef-5ceb-4000-a98c-80708bbe2000",
+          "name": "Answers3.png",
+          "tag": "",
+          "container": {
+            "id": "56559ef4-8698-4000-a991-32b501ce6000",
+            "type": 2
+          },
+          "contentItem": {
+            "name": "Answers3.png",
+            "type": "Image",
+            "assetId": "c6675b3c-8b48-4000-a48e-4b655f352000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1,
+            "key": "3",
+            "exportKey": true
+          }
+        },
+        "e952c602-f801-4000-af92-a2ba3b74f000": {
+          "id": "e952c602-f801-4000-af92-a2ba3b74f000",
+          "name": "Answers4.png",
+          "tag": "",
+          "container": {
+            "id": "56559ef4-8698-4000-a991-32b501ce6000",
+            "type": 2
+          },
+          "contentItem": {
+            "name": "Answers4.png",
+            "type": "Image",
+            "assetId": "b0fc5638-6f99-4000-a8d2-e4c3445c3000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1,
+            "key": "4",
+            "exportKey": true
+          }
+        },
+        "f3b31914-ea49-4000-a603-09460eab4000": {
+          "id": "f3b31914-ea49-4000-a603-09460eab4000",
+          "name": "Answers5.png",
+          "tag": "",
+          "container": {
+            "id": "56559ef4-8698-4000-a991-32b501ce6000",
+            "type": 2
+          },
+          "contentItem": {
+            "name": "Answers5.png",
+            "type": "Image",
+            "assetId": "4f71266c-0730-4000-a6b7-274ca9d7f000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1,
+            "key": "5",
+            "exportKey": true
+          }
+        }
+      },
+      "sequencesByParentId": {
+        "c658cab3-3852-4000-acb7-dc46fc472000": {
+          "id": "c658cab3-3852-4000-acb7-dc46fc472000",
+          "parentType": 2,
+          "sequence": [
+            "d08ae012-f633-4000-a803-ba28d1ec4000",
+            "0c153e62-ff22-4000-add1-ffb4a8807000",
+            "ba816230-59c9-4000-af5d-a65970fe1000",
+            "d8b3ec1b-f038-4000-adc4-42ecb2283000",
+            "82ec477f-bd7d-4000-aa57-c55d94695000",
+            "d3ffd062-83df-4000-a916-1bd98694e000",
+            "02b81f04-92c1-4000-a703-1aec22ebe000",
+            "da0b4f57-94ed-4000-a167-c39c1a560000",
+            "091ea348-b734-4000-a7e3-8104421d6000",
+            "91c5fda1-fba7-4000-a611-425fc6215000",
+            "6b6e0d55-5d77-4000-a1a6-dce26f84c000",
+            "4aa4a5ee-a43d-4000-a13c-9bab2e8c3000",
+            "a1ece2a5-27ef-4000-a391-03878f6b0000",
+            "27614f74-2e32-4000-a4f5-f5478354b000",
+            "077eaa72-9831-4000-ab65-4bb4df87a000",
+            "ad7f5ce9-f1a0-4000-ac05-08065e19e000",
+            "34b54163-ca0e-4000-a88a-515d9282c000",
+            "eb5d49db-95bf-4000-afde-a89c55d2f000",
+            "993fe535-af80-4000-a115-d92ba274c000",
+            "6e35bec8-dd6a-4000-ada1-9a5613b10000"
+          ]
+        },
+        "56559ef4-8698-4000-a991-32b501ce6000": {
+          "id": "56559ef4-8698-4000-a991-32b501ce6000",
+          "parentType": 2,
+          "sequence": [
+            "5eb94dc6-aaf3-4000-a2c5-ee7bc9d4b000",
+            "2926d255-4be2-4000-afd9-c461632c9000",
+            "b8644afc-06a1-4000-a046-99ea60d02000",
+            "25474cef-5ceb-4000-a98c-80708bbe2000",
+            "e952c602-f801-4000-af92-a2ba3b74f000",
+            "f3b31914-ea49-4000-a603-09460eab4000"
+          ]
+        }
+      }
+    },
+    "events": {
+      "3aff75e6-8447-4000-a48b-820c96580000": {
+        "id": "3aff75e6-8447-4000-a48b-820c96580000",
+        "name": "AttractLoop.mp4_ev_ev",
+        "type": "Serial",
+        "mediaStateId": "9aab30e0-88a6-4000-a1d5-c2cf92ea8000",
+        "disabled": false,
+        "data": {
+          "port": "2",
+          "data": "X003A[1]",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "399626e7-9649-4000-aa3a-ea10805bb000": {
+        "id": "399626e7-9649-4000-aa3a-ea10805bb000",
+        "name": "GameRules.png_ev_ev",
+        "type": "PluginMessage",
+        "mediaStateId": "0c9b72e7-3da1-4000-a941-4db74856f000",
+        "disabled": false,
+        "data": {
+          "pluginId": "64f84952-882c-4000-a603-4a5386f54000",
+          "message": "<any>",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "75d3df0c-8f04-4000-a5a1-0fdba67d4000": {
+        "id": "75d3df0c-8f04-4000-a5a1-0fdba67d4000",
+        "name": "Questions_ev_ev",
+        "type": "PluginMessage",
+        "mediaStateId": "c658cab3-3852-4000-acb7-dc46fc472000",
+        "disabled": false,
+        "data": {
+          "pluginId": "64f84952-882c-4000-a603-4a5386f54000",
+          "message": "0",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "1309b790-780a-4000-a837-12070c514000": {
+        "id": "1309b790-780a-4000-a837-12070c514000",
+        "name": "Questions_ev_ev",
+        "type": "PluginMessage",
+        "mediaStateId": "c658cab3-3852-4000-acb7-dc46fc472000",
+        "disabled": false,
+        "data": {
+          "pluginId": "64f84952-882c-4000-a603-4a5386f54000",
+          "message": "home",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "4dbd15f3-db6f-4000-aa82-9ec6e05a9000": {
+        "id": "4dbd15f3-db6f-4000-aa82-9ec6e05a9000",
+        "name": "Questions_ev_ev_ev",
+        "type": "PluginMessage",
+        "mediaStateId": "c658cab3-3852-4000-acb7-dc46fc472000",
+        "disabled": false,
+        "data": {
+          "pluginId": "64f84952-882c-4000-a603-4a5386f54000",
+          "message": "<any>",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "c0d4a75f-555a-4000-a88f-dd8e0d881000": {
+        "id": "c0d4a75f-555a-4000-a88f-dd8e0d881000",
+        "name": "Questions_ev_ev",
+        "type": "PluginMessage",
+        "mediaStateId": "c658cab3-3852-4000-acb7-dc46fc472000",
+        "disabled": false,
+        "data": {
+          "pluginId": "64f84952-882c-4000-a603-4a5386f54000",
+          "message": "1",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "c22984b9-178a-4000-a166-20591bdc5000": {
+        "id": "c22984b9-178a-4000-a166-20591bdc5000",
+        "name": "Questions_ev_ev",
+        "type": "PluginMessage",
+        "mediaStateId": "c658cab3-3852-4000-acb7-dc46fc472000",
+        "disabled": false,
+        "data": {
+          "pluginId": "64f84952-882c-4000-a603-4a5386f54000",
+          "message": "2",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "d6789124-1b15-4000-a63b-29ef7bec6000": {
+        "id": "d6789124-1b15-4000-a63b-29ef7bec6000",
+        "name": "Questions_ev_ev",
+        "type": "PluginMessage",
+        "mediaStateId": "c658cab3-3852-4000-acb7-dc46fc472000",
+        "disabled": false,
+        "data": {
+          "pluginId": "64f84952-882c-4000-a603-4a5386f54000",
+          "message": "3",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "bd97f33f-a4bb-4000-a0ae-10407fca2000": {
+        "id": "bd97f33f-a4bb-4000-a0ae-10407fca2000",
+        "name": "Questions_ev_ev",
+        "type": "PluginMessage",
+        "mediaStateId": "c658cab3-3852-4000-acb7-dc46fc472000",
+        "disabled": false,
+        "data": {
+          "pluginId": "64f84952-882c-4000-a603-4a5386f54000",
+          "message": "4",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "fcc0c9bf-e23b-4000-a7ef-7b9fb9bac000": {
+        "id": "fcc0c9bf-e23b-4000-a7ef-7b9fb9bac000",
+        "name": "Questions_ev_ev",
+        "type": "PluginMessage",
+        "mediaStateId": "c658cab3-3852-4000-acb7-dc46fc472000",
+        "disabled": false,
+        "data": {
+          "pluginId": "64f84952-882c-4000-a603-4a5386f54000",
+          "message": "5",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "5ece638f-cecf-4000-a53b-eff98950a000": {
+        "id": "5ece638f-cecf-4000-a53b-eff98950a000",
+        "name": "Results_ev_ev",
+        "type": "PluginMessage",
+        "mediaStateId": "56559ef4-8698-4000-a991-32b501ce6000",
+        "disabled": false,
+        "data": {
+          "pluginId": "64f84952-882c-4000-a603-4a5386f54000",
+          "message": "BacktoLoop",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      }
+    },
+    "transitions": {
+      "transitionsById": {
+        "f1b1871f-8a9f-4000-abec-a01dadff5000": {
+          "id": "f1b1871f-8a9f-4000-abec-a01dadff5000",
+          "name": "AttractLoop.mp4_ev_tr",
+          "eventId": "3aff75e6-8447-4000-a48b-820c96580000",
+          "targetMediaStateId": "0c9b72e7-3da1-4000-a941-4db74856f000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "7733c189-3ea9-4000-a74e-14548e82a000": {
+          "id": "7733c189-3ea9-4000-a74e-14548e82a000",
+          "name": "GameRules.png_ev_tr",
+          "eventId": "399626e7-9649-4000-aa3a-ea10805bb000",
+          "targetMediaStateId": "c658cab3-3852-4000-acb7-dc46fc472000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "71d34e03-434d-4000-ab83-b51fe39dc000": {
+          "id": "71d34e03-434d-4000-ab83-b51fe39dc000",
+          "name": "Questions_ev_tr",
+          "eventId": "75d3df0c-8f04-4000-a5a1-0fdba67d4000",
+          "targetMediaStateId": "56559ef4-8698-4000-a991-32b501ce6000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "7431c87e-1e90-4000-a755-cc76a6002000": {
+          "id": "7431c87e-1e90-4000-a755-cc76a6002000",
+          "name": "Questions_ev_tr",
+          "eventId": "1309b790-780a-4000-a837-12070c514000",
+          "targetMediaStateId": "9aab30e0-88a6-4000-a1d5-c2cf92ea8000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "0f46d1d0-f252-4000-a524-be21c147a000": {
+          "id": "0f46d1d0-f252-4000-a524-be21c147a000",
+          "name": "Questions_tr_ev",
+          "eventId": "4dbd15f3-db6f-4000-aa82-9ec6e05a9000",
+          "targetMediaStateId": "c658cab3-3852-4000-acb7-dc46fc472000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "316072d2-7648-4000-afc2-7c0c5b0f5000": {
+          "id": "316072d2-7648-4000-afc2-7c0c5b0f5000",
+          "name": "Questions_ev_tr",
+          "eventId": "c0d4a75f-555a-4000-a88f-dd8e0d881000",
+          "targetMediaStateId": "56559ef4-8698-4000-a991-32b501ce6000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "438b1f81-89f5-4000-a7fe-260a26316000": {
+          "id": "438b1f81-89f5-4000-a7fe-260a26316000",
+          "name": "Questions_ev_tr",
+          "eventId": "c22984b9-178a-4000-a166-20591bdc5000",
+          "targetMediaStateId": "56559ef4-8698-4000-a991-32b501ce6000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "2f43e1be-0042-4000-ad06-5e08fd25d000": {
+          "id": "2f43e1be-0042-4000-ad06-5e08fd25d000",
+          "name": "Questions_ev_tr",
+          "eventId": "d6789124-1b15-4000-a63b-29ef7bec6000",
+          "targetMediaStateId": "56559ef4-8698-4000-a991-32b501ce6000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "77c2feb5-f616-4000-a4f3-3b673f4c7000": {
+          "id": "77c2feb5-f616-4000-a4f3-3b673f4c7000",
+          "name": "Questions_ev_tr",
+          "eventId": "bd97f33f-a4bb-4000-a0ae-10407fca2000",
+          "targetMediaStateId": "56559ef4-8698-4000-a991-32b501ce6000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "7eb7bbcb-3088-4000-ac6b-1b4a67af5000": {
+          "id": "7eb7bbcb-3088-4000-ac6b-1b4a67af5000",
+          "name": "Questions_ev_tr",
+          "eventId": "fcc0c9bf-e23b-4000-a7ef-7b9fb9bac000",
+          "targetMediaStateId": "56559ef4-8698-4000-a991-32b501ce6000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "9b1aaac1-deb6-4000-a8b7-ffed2d4bc000": {
+          "id": "9b1aaac1-deb6-4000-a8b7-ffed2d4bc000",
+          "name": "Results_ev_tr",
+          "eventId": "5ece638f-cecf-4000-a53b-eff98950a000",
+          "targetMediaStateId": "9aab30e0-88a6-4000-a1d5-c2cf92ea8000",
+          "type": "No effect",
+          "duration": 0
+        }
+      },
+      "sequencesByEventId": {}
+    },
+    "commands": {
+      "commandsById": {},
+      "sequencesById": {}
+    },
+    "htmlSites": {},
+    "nodeApps": {},
+    "dataFeeds": {
+      "feedsById": {},
+      "sourcesById": {}
+    },
+    "userVariables": {
+      "variablesById": {
+        "e03f7cbb-9931-4000-a5f1-b1b949c4b000": {
+          "id": "e03f7cbb-9931-4000-a5f1-b1b949c4b000",
+          "name": "Score",
+          "defaultValue": {
+            "params": [
+              {
+                "type": "Text",
+                "value": "0"
+              }
+            ]
+          },
+          "access": "Private",
+          "isNetworked": false,
+          "dataFeedId": "0",
+          "systemVariable": null,
+          "data": null
+        },
+        "ca13d850-bdff-4000-ace7-ad24b7c0b000": {
+          "id": "ca13d850-bdff-4000-ace7-ad24b7c0b000",
+          "name": "Question",
+          "defaultValue": {
+            "params": []
+          },
+          "access": "Private",
+          "isNetworked": false,
+          "dataFeedId": "0",
+          "systemVariable": null,
+          "data": null
+        }
+      },
+      "sequence": [
+        "e03f7cbb-9931-4000-a5f1-b1b949c4b000",
+        "ca13d850-bdff-4000-ace7-ad24b7c0b000"
+      ]
+    },
+    "liveText": {
+      "itemsById": {},
+      "layersByCanvasId": {},
+      "dataFeedsByGroupId": {},
+      "canvasesById": {}
+    },
+    "deviceWebPages": {},
+    "scriptPlugins": {
+      "64f84952-882c-4000-a603-4a5386f54000": {
+        "id": "64f84952-882c-4000-a603-4a5386f54000",
+        "name": "QuizGame",
+        "assetId": "f268b287-18c9-4000-a620-bba42e9ad000"
+      }
+    },
+    "parserPlugins": {},
+    "videoModePlugins": {},
+    "auxiliaryFiles": {},
+    "linkedPresentations": {},
+    "partnerProducts": {},
+    "customAutorun": "0",
+    "bmapSpec": "0",
+    "assetMap": {
+      "f268b287-18c9-4000-a620-bba42e9ad000": {
+        "id": "f268b287-18c9-4000-a620-bba42e9ad000",
+        "name": "RandomNumberQuiz.brs",
+        "path": "/Users/rlb/Documents/Code/Brightscript/Plugin/QuizzGameRandomNumberGenPlugin/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "BrightScript",
+        "scope": "b0a06324fdd184ae",
+        "locator": "file:///Users/rlb/Documents/Code/Brightscript/Plugin/QuizzGameRandomNumberGenPlugin/RandomNumberQuiz.brs",
+        "fileSize": 7170,
+        "lastModifiedDate": "2024-04-11T19:18:56.827Z",
+        "refCount": 1
+      },
+      "217ba0d4-0aee-4000-ae7e-3d5da04e3000": {
+        "id": "217ba0d4-0aee-4000-ae7e-3d5da04e3000",
+        "name": "AttractLoop.mp4",
+        "path": "/Users/rlb/Documents/convert/quizGame/VideoAttract/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "b0a06324fdd184ae",
+        "locator": "file:///Users/rlb/Documents/convert/quizGame/VideoAttract/AttractLoop.mp4",
+        "mediaType": "Video",
+        "fileSize": 39860,
+        "lastModifiedDate": "2024-04-12T12:35:57.700Z",
+        "refCount": 1
+      },
+      "b182c868-b16b-4000-a83f-fa81f8c62000": {
+        "id": "b182c868-b16b-4000-a83f-fa81f8c62000",
+        "name": "GameRules.png",
+        "path": "/Users/rlb/Documents/convert/quizGame/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "b0a06324fdd184ae",
+        "locator": "file:///Users/rlb/Documents/convert/quizGame/GameRules.png",
+        "mediaType": "Image",
+        "fileSize": 17831,
+        "lastModifiedDate": "2024-04-12T11:58:04.460Z",
+        "refCount": 1
+      },
+      "3510272a-db45-4000-ace1-b21d7fe08000": {
+        "id": "3510272a-db45-4000-ace1-b21d7fe08000",
+        "name": "Question1.png",
+        "path": "/Users/rlb/Documents/convert/quizGame/Questions/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "b0a06324fdd184ae",
+        "locator": "file:///Users/rlb/Documents/convert/quizGame/Questions/Question1.png",
+        "mediaType": "Image",
+        "refCount": 1
+      },
+      "16fa23dc-e60b-4000-ab90-922ad2294000": {
+        "id": "16fa23dc-e60b-4000-ab90-922ad2294000",
+        "name": "Question2.png",
+        "path": "/Users/rlb/Documents/convert/quizGame/Questions/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "b0a06324fdd184ae",
+        "locator": "file:///Users/rlb/Documents/convert/quizGame/Questions/Question2.png",
+        "mediaType": "Image",
+        "refCount": 1
+      },
+      "6bc95534-1bd8-4000-a964-82bef8c65000": {
+        "id": "6bc95534-1bd8-4000-a964-82bef8c65000",
+        "name": "Question3.png",
+        "path": "/Users/rlb/Documents/convert/quizGame/Questions/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "b0a06324fdd184ae",
+        "locator": "file:///Users/rlb/Documents/convert/quizGame/Questions/Question3.png",
+        "mediaType": "Image",
+        "refCount": 1
+      },
+      "36653da7-7316-4000-a32e-a7142c10f000": {
+        "id": "36653da7-7316-4000-a32e-a7142c10f000",
+        "name": "Question4.png",
+        "path": "/Users/rlb/Documents/convert/quizGame/Questions/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "b0a06324fdd184ae",
+        "locator": "file:///Users/rlb/Documents/convert/quizGame/Questions/Question4.png",
+        "mediaType": "Image",
+        "refCount": 1
+      },
+      "7b4333dc-69af-4000-a671-d4e1ed7d1000": {
+        "id": "7b4333dc-69af-4000-a671-d4e1ed7d1000",
+        "name": "Question5.png",
+        "path": "/Users/rlb/Documents/convert/quizGame/Questions/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "b0a06324fdd184ae",
+        "locator": "file:///Users/rlb/Documents/convert/quizGame/Questions/Question5.png",
+        "mediaType": "Image",
+        "refCount": 1
+      },
+      "1494ddf8-5e57-4000-a62a-9311d369a000": {
+        "id": "1494ddf8-5e57-4000-a62a-9311d369a000",
+        "name": "Question6.png",
+        "path": "/Users/rlb/Documents/convert/quizGame/Questions/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "b0a06324fdd184ae",
+        "locator": "file:///Users/rlb/Documents/convert/quizGame/Questions/Question6.png",
+        "mediaType": "Image",
+        "refCount": 1
+      },
+      "a35b5f73-6533-4000-a3aa-6093ce226000": {
+        "id": "a35b5f73-6533-4000-a3aa-6093ce226000",
+        "name": "Question7.png",
+        "path": "/Users/rlb/Documents/convert/quizGame/Questions/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "b0a06324fdd184ae",
+        "locator": "file:///Users/rlb/Documents/convert/quizGame/Questions/Question7.png",
+        "mediaType": "Image",
+        "refCount": 1
+      },
+      "c4a09122-377c-4000-a561-904d84a4c000": {
+        "id": "c4a09122-377c-4000-a561-904d84a4c000",
+        "name": "Question8.png",
+        "path": "/Users/rlb/Documents/convert/quizGame/Questions/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "b0a06324fdd184ae",
+        "locator": "file:///Users/rlb/Documents/convert/quizGame/Questions/Question8.png",
+        "mediaType": "Image",
+        "refCount": 1
+      },
+      "a19941b5-ebe1-4000-acdc-2e184558c000": {
+        "id": "a19941b5-ebe1-4000-acdc-2e184558c000",
+        "name": "Question9.png",
+        "path": "/Users/rlb/Documents/convert/quizGame/Questions/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "b0a06324fdd184ae",
+        "locator": "file:///Users/rlb/Documents/convert/quizGame/Questions/Question9.png",
+        "mediaType": "Image",
+        "refCount": 1
+      },
+      "190fc52f-e540-4000-a837-cb8db781a000": {
+        "id": "190fc52f-e540-4000-a837-cb8db781a000",
+        "name": "Question10.png",
+        "path": "/Users/rlb/Documents/convert/quizGame/Questions/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "b0a06324fdd184ae",
+        "locator": "file:///Users/rlb/Documents/convert/quizGame/Questions/Question10.png",
+        "mediaType": "Image",
+        "refCount": 1
+      },
+      "681de43f-92c0-4000-a9dd-324fa3a66000": {
+        "id": "681de43f-92c0-4000-a9dd-324fa3a66000",
+        "name": "Question11.png",
+        "path": "/Users/rlb/Documents/convert/quizGame/Questions/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "b0a06324fdd184ae",
+        "locator": "file:///Users/rlb/Documents/convert/quizGame/Questions/Question11.png",
+        "mediaType": "Image",
+        "refCount": 1
+      },
+      "83f9a786-9918-4000-ae0f-4218a040e000": {
+        "id": "83f9a786-9918-4000-ae0f-4218a040e000",
+        "name": "Question12.png",
+        "path": "/Users/rlb/Documents/convert/quizGame/Questions/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "b0a06324fdd184ae",
+        "locator": "file:///Users/rlb/Documents/convert/quizGame/Questions/Question12.png",
+        "mediaType": "Image",
+        "refCount": 1
+      },
+      "f2c56832-ba47-4000-a1ba-04a487bdf000": {
+        "id": "f2c56832-ba47-4000-a1ba-04a487bdf000",
+        "name": "Question13.png",
+        "path": "/Users/rlb/Documents/convert/quizGame/Questions/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "b0a06324fdd184ae",
+        "locator": "file:///Users/rlb/Documents/convert/quizGame/Questions/Question13.png",
+        "mediaType": "Image",
+        "refCount": 1
+      },
+      "6d23635e-bdc6-4000-a055-7bfdce38c000": {
+        "id": "6d23635e-bdc6-4000-a055-7bfdce38c000",
+        "name": "Question14.png",
+        "path": "/Users/rlb/Documents/convert/quizGame/Questions/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "b0a06324fdd184ae",
+        "locator": "file:///Users/rlb/Documents/convert/quizGame/Questions/Question14.png",
+        "mediaType": "Image",
+        "refCount": 1
+      },
+      "e846e777-a4e9-4000-a674-4a958e2d8000": {
+        "id": "e846e777-a4e9-4000-a674-4a958e2d8000",
+        "name": "Question15.png",
+        "path": "/Users/rlb/Documents/convert/quizGame/Questions/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "b0a06324fdd184ae",
+        "locator": "file:///Users/rlb/Documents/convert/quizGame/Questions/Question15.png",
+        "mediaType": "Image",
+        "refCount": 1
+      },
+      "cbd2e78f-9200-4000-a255-07a5c597e000": {
+        "id": "cbd2e78f-9200-4000-a255-07a5c597e000",
+        "name": "Question16.png",
+        "path": "/Users/rlb/Documents/convert/quizGame/Questions/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "b0a06324fdd184ae",
+        "locator": "file:///Users/rlb/Documents/convert/quizGame/Questions/Question16.png",
+        "mediaType": "Image",
+        "refCount": 1
+      },
+      "67a63eed-b8c5-4000-a2f6-3a72aac2a000": {
+        "id": "67a63eed-b8c5-4000-a2f6-3a72aac2a000",
+        "name": "Question17.png",
+        "path": "/Users/rlb/Documents/convert/quizGame/Questions/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "b0a06324fdd184ae",
+        "locator": "file:///Users/rlb/Documents/convert/quizGame/Questions/Question17.png",
+        "mediaType": "Image",
+        "refCount": 1
+      },
+      "bc3eb5e0-0307-4000-aaa9-20fc3b4c6000": {
+        "id": "bc3eb5e0-0307-4000-aaa9-20fc3b4c6000",
+        "name": "Question18.png",
+        "path": "/Users/rlb/Documents/convert/quizGame/Questions/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "b0a06324fdd184ae",
+        "locator": "file:///Users/rlb/Documents/convert/quizGame/Questions/Question18.png",
+        "mediaType": "Image",
+        "refCount": 1
+      },
+      "ae1338b5-2147-4000-adfb-1c386da9b000": {
+        "id": "ae1338b5-2147-4000-adfb-1c386da9b000",
+        "name": "Question19.png",
+        "path": "/Users/rlb/Documents/convert/quizGame/Questions/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "b0a06324fdd184ae",
+        "locator": "file:///Users/rlb/Documents/convert/quizGame/Questions/Question19.png",
+        "mediaType": "Image",
+        "refCount": 1
+      },
+      "d2c6a9d5-d913-4000-a89d-a7569ddce000": {
+        "id": "d2c6a9d5-d913-4000-a89d-a7569ddce000",
+        "name": "Question20.png",
+        "path": "/Users/rlb/Documents/convert/quizGame/Questions/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "b0a06324fdd184ae",
+        "locator": "file:///Users/rlb/Documents/convert/quizGame/Questions/Question20.png",
+        "mediaType": "Image",
+        "refCount": 1
+      },
+      "3c744ce6-0eb6-4000-a198-2660b7e47000": {
+        "id": "3c744ce6-0eb6-4000-a198-2660b7e47000",
+        "name": "Answers0.png",
+        "path": "/Users/rlb/Documents/convert/quizGame/Answers/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "b0a06324fdd184ae",
+        "locator": "file:///Users/rlb/Documents/convert/quizGame/Answers/Answers0.png",
+        "mediaType": "Image",
+        "refCount": 1
+      },
+      "15cdbd53-6281-4000-a64e-9fc28d6ed000": {
+        "id": "15cdbd53-6281-4000-a64e-9fc28d6ed000",
+        "name": "Answers1.png",
+        "path": "/Users/rlb/Documents/convert/quizGame/Answers/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "b0a06324fdd184ae",
+        "locator": "file:///Users/rlb/Documents/convert/quizGame/Answers/Answers1.png",
+        "mediaType": "Image",
+        "refCount": 1
+      },
+      "6b75c89b-159b-4000-ad12-b1937d1e4000": {
+        "id": "6b75c89b-159b-4000-ad12-b1937d1e4000",
+        "name": "Answers2.png",
+        "path": "/Users/rlb/Documents/convert/quizGame/Answers/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "b0a06324fdd184ae",
+        "locator": "file:///Users/rlb/Documents/convert/quizGame/Answers/Answers2.png",
+        "mediaType": "Image",
+        "refCount": 1
+      },
+      "c6675b3c-8b48-4000-a48e-4b655f352000": {
+        "id": "c6675b3c-8b48-4000-a48e-4b655f352000",
+        "name": "Answers3.png",
+        "path": "/Users/rlb/Documents/convert/quizGame/Answers/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "b0a06324fdd184ae",
+        "locator": "file:///Users/rlb/Documents/convert/quizGame/Answers/Answers3.png",
+        "mediaType": "Image",
+        "refCount": 1
+      },
+      "b0fc5638-6f99-4000-a8d2-e4c3445c3000": {
+        "id": "b0fc5638-6f99-4000-a8d2-e4c3445c3000",
+        "name": "Answers4.png",
+        "path": "/Users/rlb/Documents/convert/quizGame/Answers/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "b0a06324fdd184ae",
+        "locator": "file:///Users/rlb/Documents/convert/quizGame/Answers/Answers4.png",
+        "mediaType": "Image",
+        "refCount": 1
+      },
+      "4f71266c-0730-4000-a6b7-274ca9d7f000": {
+        "id": "4f71266c-0730-4000-a6b7-274ca9d7f000",
+        "name": "Answers5.png",
+        "path": "/Users/rlb/Documents/convert/quizGame/Answers/",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "b0a06324fdd184ae",
+        "locator": "file:///Users/rlb/Documents/convert/quizGame/Answers/Answers5.png",
+        "mediaType": "Image",
+        "refCount": 1
+      }
+    },
+    "thumbnail": {
+      "type": "image/jpeg",
+      "data": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgICAgMCAgIDAwMDBAYEBAQEBAgGBgUGCQgKCgkICQkKDA8MCgsOCwkJDRENDg8QEBEQCgwSExIQEw8QEBD/2wBDAQMDAwQDBAgEBAgQCwkLEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBD/wAARCABwAMgDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAgG/8QAKRABAAECAwcDBQAAAAAAAAAAAPAWKQhJVgECAwQFBhUYIiNBVFVhc//EABkBAQEBAQEBAAAAAAAAAAAAAAAEAwUGAv/EACoRAQAAAwYEBwEBAAAAAAAAAAABAgMTFGFikuIFERJzBCFBQkPBwjJR/9oADAMBAAIRAxEAPwDW4csOWDT0advYgsQXZv3fl+r+R6r+V43KcD4OU4v8dz2bn72/XaWaJVRk0TVSxnoqtWaE08008/8Ac0PKblCEIcsI/wCvmefoRzZolVFmiVUsYZXjPU17WdvgjmzRKqLNEqpYwXjPU17S3wRzZolVFmiVUsYLxnqa9pb4I5s0SqizRKqWMF4z1Ne0t8Ec2aJVRZolVLGC8Z6mvaW+CObNEqos0SqljBeM9TXtLfBHNmiVUWaJVSxgvGepr2lvgjmzRKqLNEqpYwXjPU17S3wRzZolVFmiVUsYLxnqa9pb4I5s0SqizRKqWMF4z1Ne0t8Ec2aJVRZolVLGC8Z6mvaW+COcRuHLBp6NO4cQWH3s37TxHV/I9V/K8HlOP8HN8X+2579z97PptDJomqh3eFxm6aks00ZumeMPOPOPKHJRAyaJqpYyOcmiaqWM4XiPf3J/ynr+gAlYAAAAAAAAAAAAAAAAAAAAI5yaJqoMmiaqHp+GfN3JvpfAyaJqpYyOcmiaqWM4XiPf3J/ynr+gAlYAAAAAAAAAAAAAAAAAAAAI5yaJqoMmiaqHp+GfN3JvpfAyaJqpYyOcmiaqWM4XiPf3J/ynr+gAlYAAAAAAAAAAAAAAAAAAAAI5yaJqoMmiaqHp+GfN3JvpfAyaJqpYyOcmiaqWM4XiPf3J/wAp6/oAJWAAAAAAAAAAAAAAAAAAAACOcmiaqDJomqh6fhnzdyb6XwMmiaqWMjnJomqljOF4j39yf8p6/oAJWAAAAAAAAAAAAAAAAAAAACOcmiaqDJomqh6fhnzdyb6XwMmiaqWMjnDliNwaejTt7D7iC7y+78v0jx3VfyvG5vgfPynC/jv+zf8A1t+uws0SqnHq0pozTyzST/3NHyl5wjCPLGH+M55OtYwjmzRKqLNEqpld8lTRuZ2GKxhHNmiVUWaJVRd8lTRuLDFYwjmzRKqLNEqou+Spo3FhisYRzZolVFmiVUXfJU0biwxWMI5s0SqizRKqLvkqaNxYYrGEc2aJVRZolVF3yVNG4sMVjCObNEqos0Sqi75KmjcWGKxhHNmiVUWaJVRd8lTRuLDFYwjmzRKqLNEqou+Spo3FhisYRzZolVFmiVUXfJU0biwxWMI5s0SqizRKqLvkqaNxYYmTRNVBiNxG4NPRp3Dh9w+95faeI6R47qv5Xg83x/n5vhf23/fv/rZ9Ng7vC4TdNSaaWMvVPGPnDlHlHkog/9k=",
+      "size": {
+        "width": 200,
+        "height": 112
+      },
+      "hash": "b8d3e5c4b3cedd96ac21c63c98fa88f9c21b952f"
+    }
+  },
+  "selection": {
+    "hovered": null,
+    "selectionContainer": {
+      "id": "fa508d95-9f58-4000-a1fe-891773946000",
+      "type": "ZONE",
+      "selectableType": "ZONE"
+    },
+    "selectionEntities": {},
+    "prevSelectionEntities": {},
+    "isEventAdvancedEnabled": false,
+    "activeAssetMenuTab": "ASSETS"
+  },
+  "interactiveCanvas": {
+    "statePositionById": {
+      "56559ef4-8698-4000-a991-32b501ce6000": {
+        "id": "56559ef4-8698-4000-a991-32b501ce6000",
+        "position": {
+          "x": 656.5488586425781,
+          "y": -8.220874786376953
+        }
+      },
+      "c658cab3-3852-4000-acb7-dc46fc472000": {
+        "id": "c658cab3-3852-4000-acb7-dc46fc472000",
+        "position": {
+          "x": 305.76446533203125,
+          "y": -2.372945785522461
+        }
+      },
+      "9aab30e0-88a6-4000-a1d5-c2cf92ea8000": {
+        "id": "9aab30e0-88a6-4000-a1d5-c2cf92ea8000",
+        "position": {
+          "x": -279.7797546386719,
+          "y": 1.239349365234375
+        }
+      },
+      "0c9b72e7-3da1-4000-a941-4db74856f000": {
+        "id": "0c9b72e7-3da1-4000-a941-4db74856f000",
+        "position": {
+          "x": -26.861899375915527,
+          "y": -7.337764739990234
+        }
+      }
+    },
+    "eventDataById": {
+      "7667bedc-919a-4000-ada3-15e32c6cf000": {
+        "id": "7667bedc-919a-4000-ada3-15e32c6cf000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "d69babe4-aa03-4000-af77-4f955fa6f000": {
+        "id": "d69babe4-aa03-4000-af77-4f955fa6f000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "fca26e6d-e07c-4000-a005-24064657a000": {
+        "id": "fca26e6d-e07c-4000-a005-24064657a000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "c9325f67-6ab4-4000-a9a0-1721f0375000": {
+        "id": "c9325f67-6ab4-4000-a9a0-1721f0375000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "19013d66-9aec-4000-ae81-909e953e5000": {
+        "id": "19013d66-9aec-4000-ae81-909e953e5000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "20571b59-0708-4000-a41a-639d78e63000": {
+        "id": "20571b59-0708-4000-a41a-639d78e63000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "138823a8-027e-4000-aca5-6eca7a551000": {
+        "id": "138823a8-027e-4000-aca5-6eca7a551000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "d6d356dc-ea46-4000-addf-68870d837000": {
+        "id": "d6d356dc-ea46-4000-addf-68870d837000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "9bc662a7-9bfb-4000-a61e-a74a58f82000": {
+        "id": "9bc662a7-9bfb-4000-a61e-a74a58f82000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "54d4d40f-1b3a-4000-a178-319f636b0000": {
+        "id": "54d4d40f-1b3a-4000-a178-319f636b0000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "3aff75e6-8447-4000-a48b-820c96580000": {
+        "id": "3aff75e6-8447-4000-a48b-820c96580000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "399626e7-9649-4000-aa3a-ea10805bb000": {
+        "id": "399626e7-9649-4000-aa3a-ea10805bb000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "75d3df0c-8f04-4000-a5a1-0fdba67d4000": {
+        "id": "75d3df0c-8f04-4000-a5a1-0fdba67d4000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "1309b790-780a-4000-a837-12070c514000": {
+        "id": "1309b790-780a-4000-a837-12070c514000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "4dbd15f3-db6f-4000-aa82-9ec6e05a9000": {
+        "id": "4dbd15f3-db6f-4000-aa82-9ec6e05a9000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "c0d4a75f-555a-4000-a88f-dd8e0d881000": {
+        "id": "c0d4a75f-555a-4000-a88f-dd8e0d881000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "c22984b9-178a-4000-a166-20591bdc5000": {
+        "id": "c22984b9-178a-4000-a166-20591bdc5000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "d6789124-1b15-4000-a63b-29ef7bec6000": {
+        "id": "d6789124-1b15-4000-a63b-29ef7bec6000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "bd97f33f-a4bb-4000-a0ae-10407fca2000": {
+        "id": "bd97f33f-a4bb-4000-a0ae-10407fca2000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "fcc0c9bf-e23b-4000-a7ef-7b9fb9bac000": {
+        "id": "fcc0c9bf-e23b-4000-a7ef-7b9fb9bac000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "5ece638f-cecf-4000-a53b-eff98950a000": {
+        "id": "5ece638f-cecf-4000-a53b-eff98950a000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      }
+    },
+    "viewTransformByZoneId": {
+      "fa508d95-9f58-4000-a1fe-891773946000": {
+        "x": 0,
+        "y": 0,
+        "k": 1
+      }
+    },
+    "isLoaderEnabled": false
+  },
+  "eventMenu": {
+    "isOpen": true,
+    "showTitles": true
+  },
+  "liveText": {},
+  "screenLayoutSettings": {
+    "selectedLayoutId": "Landscape1x1",
+    "screenCount": 1,
+    "isLayoutBoundaryToggled": false,
+    "selectedBezel": null,
+    "isSnapToCanvasToggled": false,
+    "layout": {
+      "id": "Landscape1x1",
+      "columns": 1,
+      "rows": 1,
+      "screenOrientation": "Landscape"
+    }
+  }
+}
