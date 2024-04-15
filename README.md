@@ -4,6 +4,16 @@ Click on "Code" and select "Download Zip"
 
 <img width="868" alt="image" src="https://github.com/RomeoLB/GameQuiz/assets/136584791/cb0b1645-fcea-4add-96c9-8b27aa0eb3ea">
 
+Unzip the "GameQuiz-main" folder to your PC/Mac.
+
+Open BA:Connected (BACon), go to File > Open 
+
+<img width="779" alt="image" src="https://github.com/RomeoLB/GameQuiz/assets/136584791/f112a8d8-31e5-41bc-8bf8-5f58c28cd2ce">
+
+Navigate to the folder where you have unzipped the package from the previous steps and locate the "GameQuizRandomQuestions.bpfx" to open the presentation:
+
+<img width="998" alt="image" src="https://github.com/RomeoLB/GameQuiz/assets/136584791/31badc43-bec7-47a2-aacf-539feeafec18">
+
 
 **Game Quiz - What is the purpose of this Presentation/plugin?**
 
