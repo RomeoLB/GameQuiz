@@ -1,3 +1,8 @@
+**How to use get and use this package?**
+
+Click on "Code" and select "Download Zip"
+
+<img width="868" alt="image" src="https://github.com/RomeoLB/GameQuiz/assets/136584791/cb0b1645-fcea-4add-96c9-8b27aa0eb3ea">
 
 
 **Game Quiz - What is the purpose of this Presentation/plugin?**
